@@ -1,38 +1,29 @@
-# Email_Automation
-
-
-# Automate Sending Emails Using Python
+## Email Automation using Python
 
 ## Overview
 
-This Python project automates the process of sending reminder emails based on data from a Google Sheets document.
+This Python project automates the process of sending reminder emails based on data provided in a Google Sheets document.
 
 ## Prerequisites
 
 - Python 3.x
 - `pandas` library (`pip install pandas`)
+- 'dotenv' library ('pip install python-dotenv')
 
 ## Setup
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/MANOJ4728/EMAIL-AUTOMATION-WITH-GOOGLE-SHEETS-
-    ```
-
-2. Install dependencies:
+1. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Create a Google Sheets document with the required columns: `due_date`, `reminder_date`, `has_paid`, etc.
+2. Create a Google Sheets document with the required columns: 'invoice_no', 'name', 'email', `due_date`, `reminder_date`, `has_paid`, 'amount', etc.
 
-4. Make the Google Sheets document public, and note the `SHEET_ID` and `SHEET_NAME`.
+3. Make the Google Sheets document public, and note the `SHEET_ID` and `SHEET_NAME`.
 
-5. Update the `main.py` file:
-
-    - Set the `SHEET_ID` and `SHEET_NAME` variables with your Google Sheets information.
+4. Create files:
+    - Create 'main.py' and 'send_email.py' files based on the code provided in the repository
+    - Set the `SHEET_ID` and `SHEET_NAME` variables in 'main.py' with Your Google Sheets information.
     - Customize the email content in `send_email.py`.
 
 6. Test the setup:
