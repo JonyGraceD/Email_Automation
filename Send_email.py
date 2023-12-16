@@ -63,8 +63,8 @@ def send_email(subject, receiver_email, name, due_date, invoice_no, amount):
     # send_email(
     #     subject="Invoice Reminder",
     #     name="John Doe",
-    #     receiver_email="bannu4728@gmail.com",
-    #     due_date="11, Aug 2022",
+    #     receiver_email="gudp026@gmail.com",
+    #     due_date="20, Dec 2023",
     #     invoice_no="INV-21-12-009",
     #     amount="5",
     # )
